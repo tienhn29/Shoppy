@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#9C27B0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imageviewhinhanhloaisanpham"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_thoitrang"
+                android:adjustViewBounds="true"
+                android:background="@drawable/boder"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+            <TextView
+                android:id="@+id/textviewtenloaisanpham"
+                android:text="Shoppy Thoi Trang"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ToiActivity">
+    <Button
+        android:id="@+id/buttondangnhaplogin"
+        android:text="Đăng nhập"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <Button
+        android:id="@+id/buttondangkylogin"
+        android:text="Đăng ký"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/textviewtenthongtinkhachhang"
+        android:textSize="30sp"
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textviewemailthongtinkhachhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textviewidthongtinkhachhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttondangxuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dang xuat" />
+
+</LinearLayout>
